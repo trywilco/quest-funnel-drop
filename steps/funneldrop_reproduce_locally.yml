@@ -1,4 +1,4 @@
-id: funneldrop_reproduce_locally_generic
+id: funneldrop_reproduce_locally
 title: Reproduce it locally
 description: Before we're going and fix this bug, we first need to reproduce it locally
   and see how the bug looks like, so we'll be able to make sure that our future bug
