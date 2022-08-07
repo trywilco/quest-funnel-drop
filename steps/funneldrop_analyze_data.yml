@@ -1,4 +1,4 @@
-id: funneldrop_analyze_data
+id: funneldrop_analyze_data_generic
 title: We're losing users
 description: We need your help identifying the cause of a massive drop in one of our
   funnels.
@@ -11,8 +11,6 @@ startFlow:
     params:
       person: head-of-rd
       messages:
-      - text: https://thumbs.gfycat.com/AnguishedAngryAlaskajingle-size_restricted.gif
-        delay: 0
       - text: We've identified something very worrying on our website, and this time
           it’s not a racoon!
         delay: 700
