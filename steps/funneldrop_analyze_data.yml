@@ -11,7 +11,7 @@ startFlow:
     params:
       person: head-of-rd
       messages:
-      - text: We've identified something very worrying on our website, and this time
+      - text: Hi There! We've identified something very worrying on our website, and this time
           it’s not a racoon!
         delay: 700
       - text: Here’s a data dump of our **analytics with the recent traffic** and
