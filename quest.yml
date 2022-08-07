@@ -4,9 +4,9 @@ description: "What’s worse than a bug? A bug that happens in the production en
   to use them on you. Time to learn how to handle such bugs—from getting a support
   ticket, through bug replication, to making sure it can’t bug (ha!) anyone ever again. "
 simulations:
-- funneldrop_analyze_data_generic
-- funneldrop_reproduce_locally_generic
-- funneldrop_fixing_bug_pr_generic
+- funneldrop_analyze_data
+- funneldrop_reproduce_locally
+- funneldrop_fixing_bug_pr
 duration: 1.5
 skills:
 - frontend
