@@ -2,18 +2,7 @@ title: Funnel Drop
 description: "What’s worse than a bug? A bug that happens in the production environment!
   \nIt affects real users, who often have pitchforks and torches and would not hesitate
   to use them on you. Time to learn how to handle such bugs—from getting a support
-  ticket, through bug replication, to making sure it can’t bug (ha!) anyone ever again. "
-simulations:
-- funneldrop_analyze_data
-- funneldrop_reproduce_locally
-- funneldrop_fixing_bug_pr
-duration: 1.5
-skills:
-- frontend
-- debugging
-- observability
-- communication
-questDependency: docker_localsetup
+  ticket, through bug replication, to making sure it can’t bug (ha!) anyone ever again."
 summary: "Welcome to real life - where a commit on one side of the world affects users
   on the other side. Most of the problems you’ll encounter won’t be as straightforward,
   and we’ll first need to dive into the data to analyze what exactly the problem is.\n\nFinding
@@ -27,8 +16,19 @@ summary: "Welcome to real life - where a commit on one side of the world affects
   users. Others might use the product on a different type of device or with very limited
   bandwidth— circumstances that can expose bugs. Luckily, we have enough tools that
   let us mimic different users."
+simulations:
+- funneldrop_analyze_data
+- funneldrop_reproduce_locally
+- funneldrop_fixing_bug_pr
+duration: 1.5
+skills:
+- frontend
+- debugging
+- observability
+- communication
+questDependency: docker_localsetup
 slogan: It's time for...
-messagesNew:
+messages:
   questStarted:
     person: head-of-rd
     messages:
