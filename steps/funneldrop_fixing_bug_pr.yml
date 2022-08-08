@@ -13,8 +13,6 @@ startFlow:
       - text: OK, I think we have everything we need. Can you please **fix the code**
           and **open a PR**, so we can release a new version to production?
         delay: 0
-isGeneric: true
-startBot: head-of-rd
 githubActions:
   frontend:
     capabilities:
