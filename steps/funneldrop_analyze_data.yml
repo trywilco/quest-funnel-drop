@@ -4,7 +4,6 @@ description: We need your help identifying the cause of a massive drop in one of
   funnels.
 hints:
 - Try to find what all the users that drop in the funnel have in common
-startBot: head-of-rd
 startFlow:
   do:
   - actionId: bot_message
