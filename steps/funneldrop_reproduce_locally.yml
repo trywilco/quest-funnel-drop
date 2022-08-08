@@ -22,8 +22,6 @@ startFlow:
           screen URL**. Then we’ll try to fix it on your machine, and only if it works,
           we’ll fix it in production.
         delay: 3500
-isGeneric: true
-startBot: head-of-rd
 trigger:
   type: user_message_to_head-of-rd
   flowNode:
