@@ -16,7 +16,7 @@ summary: "Welcome to real life - where a commit on one side of the world affects
   users. Others might use the product on a different type of device or with very limited
   bandwidth— circumstances that can expose bugs. Luckily, we have enough tools that
   let us mimic different users."
-simulations:
+steps:
 - funneldrop_analyze_data
 - funneldrop_reproduce_locally
 - funneldrop_fixing_bug_pr
