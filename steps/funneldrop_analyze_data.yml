@@ -12,7 +12,6 @@ startFlow:
       - text: "Once you’ve found it, please drop me a message here and let me know what type of users are dropping - so we'll be able to understand the impact and start working on a solution."
         delay: 3500
 trigger:
-trigger:
   type: user_message
   params:
     person: head-of-rd
