@@ -13,6 +13,10 @@ skills:
 - debugging
 - observability
 - communication
+learningObjectives:
+- Analyzing log data 
+- Reproducing a bug locally 
+- Fixing a bug 
 questDependency: docker_localsetup
 slogan: It's time for...
 messages:
