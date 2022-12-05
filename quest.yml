@@ -38,7 +38,7 @@ messages:
     - text: "Ready for your next assignment?"
       delay: 1500
     - type: schedule_learning_time
-        params: 
-          navigate:
-            show: true
-            text: Set a reminder 
+      params: 
+        navigate:
+          show: true
+          text: Set a reminder 
