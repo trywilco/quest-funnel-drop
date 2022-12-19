@@ -12,12 +12,14 @@ startFlow:
     params:
       person: head-of-rd
       messages:
-      - text: "Now that we know which users can't actually follow other users, go ahead and fix the bug!"
+      - text: "Now that we know which users are unable to follow other users, go ahead and fix the bug!"
         delay: 1300
-      - text: "Only, you know, don’t—you might break something"
+      - text: "Only, you know, don’t—you might break something."
         delay: 1400
-      - text: "It’s not that I don’t trust you, but the management definitely doesn’t, so please begin by **reproducing the bug in your dev environment** and sending me the **URL of the path** where you saw the issue. Then we’ll try to fix it in your dev environment, and only if it works, we’ll fix it in production."
+      - text: "It’s not that I don’t trust you, but the management definitely doesn’t, so please begin by :instruction[reproducing the bug in your dev environment]."
         delay: 3500
+      - text: "After reproduced, :instruction[send me the URL of the path] where you saw the issue. Then we’ll try to fix it in your dev environment, and only if it works, we’ll fix it in production."
+        delay: 5000
 trigger:
   type: user_message
   params:
