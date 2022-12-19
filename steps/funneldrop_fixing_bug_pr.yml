@@ -2,14 +2,15 @@ id: funneldrop_fixing_bug_pr
 learningObjectives:
 - Fixing a bug 
 hints:
-- Try to inspect the problematic view and see where it is on the screen
+- Try to inspect the problematic view and see where it is on the screen.
+- Make sure that the Follow button is visible for mobile users.
 startFlow:
   do:
   - actionId: bot_message
     params:
       person: head-of-rd
       messages:
-      - text: "OK, I think we have everything we need. Can you please **fix the code** and **open a PR**, so we can release a new version to production?"
+      - text: "OK, I think we have everything we need. Can you please :instruction[fix the code and open a PR], so we can release a new version to production?"
         delay: 1500
 githubActions:
   frontend:

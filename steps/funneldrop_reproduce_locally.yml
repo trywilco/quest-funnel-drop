@@ -5,18 +5,21 @@ hints:
 - All modern web browsers can show you what your website looks like on mobile, so
   you'll be able to easily debug and develop for mobile. You can use the developer
   tools to see it.
+- This is probably the url of the page where users can choose to follow other users.
 startFlow:
   do:
   - actionId: bot_message
     params:
       person: head-of-rd
       messages:
-      - text: "Now that we know which users are affected, go ahead and fix the bug!"
+      - text: "Now that we know which users are unable to follow other users, go ahead and fix the bug!"
         delay: 1300
-      - text: "Only, you know, don’t—you might break something"
+      - text: "Only, you know, don’t—you might break something."
         delay: 1400
-      - text: "It’s not that I don’t trust you, but the management definitely doesn’t, so please begin by **reproducing the bug locally** and sending me the **URL of the path** where you saw the issue. Then we’ll try to fix it on your machine, and only if it works, we’ll fix it in production."
+      - text: "It’s not that I don’t trust you, but the management definitely doesn’t, so please begin by :instruction[reproducing the bug in your dev environment]."
         delay: 3500
+      - text: "After reproduced, :instruction[send me the URL of the path] where you saw the issue. Then we’ll try to fix it in your dev environment, and only if it works, we’ll fix it in production."
+        delay: 5000
 trigger:
   type: user_message
   params:
