@@ -7,7 +7,7 @@ steps:
 - funneldrop_analyze_data
 - funneldrop_reproduce_locally
 - funneldrop_fixing_bug_pr
-duration: 1.5
+duration: 1
 skills:
 - frontend
 - debugging
