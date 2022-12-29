@@ -33,7 +33,7 @@ messages:
     messages:
     - text: "Great job! You've fixed the bug, I’m so proud of you 😀!"
       delay: 1500
-    - text: "We still have a lot of work ahead of us, so what do you think, ready for your next assignment, ok?"
+    - text: "We still have a lot of work ahead of us, so are you ready for your next assignment?"
       delay: 1800
       components:
           - type: schedule_learning_time
