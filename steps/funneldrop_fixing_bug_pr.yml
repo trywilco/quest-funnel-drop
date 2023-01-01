@@ -63,3 +63,10 @@ trigger:
         github_pr_merged:
           do:
           - actionId: finish_step
+solution:
+  do:
+    - actionId: bot_message
+      params:
+        messages:
+          - text: Seems like the width of the user info component is too wide in the CSS
+          - text: Try to :instruction[remove the `.user-info` section in "custom.scss"] and open a PR

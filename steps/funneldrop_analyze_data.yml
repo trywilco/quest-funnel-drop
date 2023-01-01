@@ -56,3 +56,10 @@ trigger:
             messages:
             - text: Try again! I'm sure you'll figure this out.
               delay: 2500
+solution:
+  do:
+    - actionId: bot_message
+      params:
+        messages:
+          - text: Looking at the `user_agent` for users with `follow_success=FALSE`, it seems like these all are mobile devices.
+          - text: Yep, so the type of users that drop in that funnel are :instruction[mobile]
