@@ -54,4 +54,4 @@ solution:
       params:
         messages:
           - text: The page where users can choose to follow other users is the user profile page.
-          - text: It should be something like :instruction[/@username]
+          - text: It should be something like :instruction[/@username].

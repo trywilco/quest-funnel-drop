@@ -68,5 +68,5 @@ solution:
     - actionId: bot_message
       params:
         messages:
-          - text: Seems like the width of the user info component is too wide in the CSS
-          - text: Try to :instruction[remove the `.user-info` section in "custom.scss"] and open a PR
+          - text: Seems like the width of the user info component is too wide in the CSS.
+          - text: Try to :instruction[remove the `.user-info` section in "custom.scss"] and open a PR.
