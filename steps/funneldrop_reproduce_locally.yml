@@ -48,3 +48,10 @@ trigger:
             messages:
             - text: "Umm, that doesn't look right. Maybe it's a different URL?"
               delay: 1400
+solution:
+  do:
+    - actionId: bot_message
+      params:
+        messages:
+          - text: The page where users can choose to follow other users is the user profile page.
+          - text: It should be something like :instruction[/@username].
