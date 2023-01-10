@@ -16,18 +16,6 @@ skills:
 questDependency: docker_localsetup
 slogan: It's time for...
 messages:
-  questStarted:
-    person: head-of-rd
-    messages:
-    - text: "https://thumbs.gfycat.com/AnguishedAngryAlaskajingle-size_restricted.gif"
-      delay: 1000
-    - text: "Before you do anything else, please **run the following command** on your repo: `${scriptCommand}`, and **let me know** once you're done."
-      delay: 1300
-  questStartedNotReady:
-    person: head-of-rd
-    messages:
-    - text: "Let me know when you are ready."
-      delay: 300
   questFinished:
     person: head-of-rd
     messages:
