@@ -19,5 +19,7 @@ messages:
   questFinished:
     person: head-of-rd
     messages:
-    - text: "Great job! You've fixed the bug. I’m so proud of you 😀\nWe still have a lot of work ahead of us, so [click here](${platform.home}) once you're ready for your next challenge, ok?"
+    - text: "Great job! You've fixed the bug. I’m so proud of you 😀"
+      delay: 1500
+    - text: "But we still have a lot of work ahead of us. So it's time to decide on your next project, pick one:"
       delay: 1500
