@@ -21,5 +21,5 @@ messages:
     messages:
     - text: "Great job! You've fixed the bug. I’m so proud of you 😀"
       delay: 1500
-    - text: "But we still have a lot of work ahead of us. So it's time to decide on your next project, pick one:"
+    - text: "But we still have a lot of work ahead of us. Therefore, I believe it's time to decide on your next project:"
       delay: 1500
