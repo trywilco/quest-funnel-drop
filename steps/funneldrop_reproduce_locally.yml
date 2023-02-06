@@ -52,6 +52,7 @@ solution:
   do:
     - actionId: bot_message
       params:
+        person: head-of-rd
         messages:
           - text: The page where users can choose to follow other users is the user profile page.
           - text: It should be something like :instruction[/@username].
