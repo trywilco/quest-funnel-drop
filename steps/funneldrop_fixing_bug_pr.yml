@@ -66,6 +66,7 @@ solution:
   do:
     - actionId: bot_message
       params:
+        person: head-of-rd
         messages:
           - text: Looks like the user info component, controlled via CSS, is too wide.
           - text: Try to :instruction[remove the `.user-info` section in "custom.scss"] and open a PR.
