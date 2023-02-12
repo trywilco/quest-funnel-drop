@@ -14,7 +14,7 @@ jobs:
           ref: ${{ github.head_ref }}
 
       - name: Validate Quest
-        uses: trywilco/uploadQuestAction@main
+        uses: trywilco/uploadQuestAction@fix/validate-on-string-true
         with:
           quest-editor-user-token: ${{ secrets.QUESTS_EDITOR_TOKEN }}
           quest-editor-user-email: quests@wilcohq.com
